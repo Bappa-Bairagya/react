@@ -1,14 +1,25 @@
-import Student from "./Student"
+import Button from "./button";
+//import List from "./button"
 
 function App() {
-  
+  // const fruits=[{id:1,name: "apple",cal:95},
+  //   {id:2,name: "potato",cal:45},
+  //   {id:3,name: "banana",cal:4},
+  //   {id:4,name:"mango",cal:105}];
 
   return (
-    <>
-      {/* <Student name="Bappa" age={20} isStudent={true}/> */}
-      <Student islog={false} name="bappa"/>
-    </>
-  )
+  
+<>
+<Button/>
+
+
+{/* {fruits.length>0?<List item={fruits} catagory="Fruits"/>: null}
+
+<List item={fruits} catagory="Fruits"/> */}
+</>
+      
+    
+  );
 }
 
 export default App
