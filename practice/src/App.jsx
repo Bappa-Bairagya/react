@@ -1,5 +1,6 @@
 import Button from "./button";
 //import List from "./button"
+import Component from "./component";
 
 function App() {
   // const fruits=[{id:1,name: "apple",cal:95},
@@ -10,6 +11,7 @@ function App() {
   return (
   
 <>
+<Component/>
 <Button/>
 
 
